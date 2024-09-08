@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slideshow Project</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/mediaqueries.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/icons8-jungle-32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <header class="page-header">
+        <div class="header-logo">
+          <img src="/assets/icons8-jungle-48.png" alt="nature-logo" />
+          <h5>nature</h5>
+        </div>
+        <div class="menu-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <nav class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">gallery</a></li>
+            <li>
+              <a href="#">blog</a>
+            </li>
+            <li><a href="#">contact</a></li>
+            <li>
+              <a href="../htmlfolder/signup.html" class="login-btn">login</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="hero-box">
+        <div class="slider">
+          <div class="overlay">
+            <img
+              id="slider-image"
+              src="/assets/beautiful-landscape-mother-nature_23-2148992406.avif"
+              alt="slider-image"
+            />
+            <img
+              id="slider-image"
+              src="/assets/close-up-squirrel-wooden-post_1048944-30370286.avif"
+              alt=""
+            />
+            <img
+              id="slider-image"
+              src="/assets/green-moss-rotting-tree-trunk-forest_1048944-30372317.avif"
+              alt=""
+            />
+            <img
+              id="slider-image"
+              src="/assets/medium-shot-woman-living-farmhouse_23-2150621719.avif"
+              alt=""
+            />
+            <img
+              id="slider-image"
+              src="/assets/squirrel-sitting-tree-branch_1048944-30371835.avif"
+              alt=""
+            />
+            <img
+              id="slider-image"
+              src="/assets/trees-growing-forest_1048944-30368869.avif"
+              alt=""
+            />
+            <div class="overlay-text">
+              <h1>Welcome to our website</h1>
+              <p>This is my slideshow project</p>
+            </div>
+          </div>
+          <button class="slider-btn" onclick="prevSlide()">
+            &#10094; Previous
+          </button>
+          <button class="slider-btn" onclick="nextSlide()">
+            Next &#10095;
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
