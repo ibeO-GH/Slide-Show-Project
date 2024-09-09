@@ -14,7 +14,7 @@ This page is with a Slide-Show section implemented.
 
 ## Screenshot of how it looks
 
-## GitHub Pages - https://ibeo-gh.github.io/Slide-Show-Project/
+## GitHub Pages - https://slide-show-project.vercel.app/
 
 <img src="/screenshots/screenshot1.png" alt="image" />
     <img src="/screenshots/screenshot3.png" alt="image" />
